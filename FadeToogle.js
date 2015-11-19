@@ -38,7 +38,9 @@ var FadeToogle = React.createClass({
     fadeToggle() {
         var that = this;
         var callback = function(){
-            that.props.callback();
+            if(that.props.callback){
+                that.props.callback();
+            }
         };
 
         var t;
