@@ -1,0 +1,20 @@
+{
+  "name": "react-native-fade-toogle",
+  "version": "0.1.0",
+  "description": "Simple fade in out toogle in your View",
+  "main": "FadeToogle.js",
+  "author": "Francis Mak <francis@franfran.com> (https://github.com/franfran)",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "fade"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/franfran/react-native-fade-toogle.git"
+  }
+}
