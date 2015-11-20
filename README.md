@@ -1,5 +1,5 @@
 # react-native-fade-toogle
-Simple fade in out for React Native
+Simple fade in out for React Native, with callback and easing options
 
 [![npm version](http://img.shields.io/npm/v/react-native-fade-toogle.svg?style=flat-square)](https://npmjs.org/package/react-native-fade-toogle "View this project on npm")
 [![npm downloads](http://img.shields.io/npm/dm/react-native-fade-toogle.svg?style=flat-square)](https://npmjs.org/package/react-native-fade-toogle "View this project on npm")
