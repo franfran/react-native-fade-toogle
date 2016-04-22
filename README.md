@@ -59,6 +59,7 @@ duration    | Number    | Yes      |                           | Fade effect dur
 component    | Number    | No      |                           | Animatable components, View, Text, Image
 easing    | Function    | No      |                    | The fade effect
 callback    | Function    | Yes      |                    | Callback function after toggle
+isDisabled | Boolean    | Yes      | false              | Enable or disable `callback` property function call
 style      | [style](http://facebook.github.io/react-native/docs/view.html#style)    | Yes      |                 
 
 ## License
