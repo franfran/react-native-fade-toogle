@@ -20,6 +20,7 @@ var FadeToogle = React.createClass({
         component: PropTypes.string,
         easing: PropTypes.func,
         callback: PropTypes.func,
+        isDisabled: PropTypes.bool,
         style: View.propTypes.style,
     },
     getDefaultProps() {
@@ -27,6 +28,7 @@ var FadeToogle = React.createClass({
             fromOpacity: 1,
             toOpacity: 0,
             duration: 100,
+            isDisabled: false,
         };
     },
     getInitialState() {
@@ -37,10 +39,10 @@ var FadeToogle = React.createClass({
     },
     fadeToggle() {
         var that = this;
-        var callback = function(){
-            if(that.props.callback){
-                that.props.callback();
-            }
+        var callback = function() {
+          if (that.props.callback && !that.props.isDisabled) {
+            that.props.callback();
+          }
         };
 
         var t;
