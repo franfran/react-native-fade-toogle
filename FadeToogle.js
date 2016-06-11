@@ -53,7 +53,7 @@ var FadeToogle = React.createClass({
         ).start(callback);
     },
     render(){
-        var com = eval('Animated.'+this.props.component);
+        var com = Animated[ this.props.component ]
         var child = eval(this.props.children);
         return React.createElement(com, {style: [this.props.style, {opacity: this.state.fadeAnim}]}, child);
     }
