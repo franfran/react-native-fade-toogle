@@ -1,16 +1,7 @@
 'use strict';
 
-var React = require('react-native');
-
-var {
-    PropTypes,
-    StyleSheet,
-    Components,
-    Animated,
-    Text,
-    View,
-    Image,
-} = React;
+import React, { Component, PropTypes } from 'react'
+import { StyleSheet, Components, Animated, Text, View, Image } from 'react-native'
 
 var FadeToogle = React.createClass({
     propTypes: {
