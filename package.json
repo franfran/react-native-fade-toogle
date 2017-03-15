@@ -1,6 +1,6 @@
 {
   "name": "react-native-fade-toogle",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Simple fade in out toogle in your View",
   "main": "FadeToogle.js",
   "author": "Francis Mak <francis@franfran.com> (https://github.com/franfran)",
